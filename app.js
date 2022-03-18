@@ -10,9 +10,9 @@ app.use(cors()); // helping with cross origin
 
 // Scheduler API 
 app.post("/api/schedule", (req, res) => {
-  console.log(req.body)
+  //console.log(req.body)
   const { event } = req.body;
-  console.log(event)
+  //console.log(event)
 
   const { text, dateTime } = event;
 
